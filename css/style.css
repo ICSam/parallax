@@ -1,0 +1,79 @@
+@font-face {
+    font-family: apex;
+    src: url(/font/Apex\ Regular.otf);
+}   
+
+body {
+    margin: 0px;
+    font-family: apex;
+}
+
+.parallax-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+    color: rgb(63, 63, 63);
+
+    row-gap: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p {
+    padding: 1em;
+    line-height: 1.5;
+}
+
+a {
+    display: inline-block;
+    padding: 5em 0.5;
+    border-radius: 0.3em;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
+}
+
+.buffet {
+    width: 100%;
+    min-height: 60vh;
+    background-color: rgb(63, 63, 63);
+}
+
+.parallax-container2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 6rem 0;
+}
+
+.card {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 1rem;
+    border-radius: 0.5em;
+
+    background-color: white;
+    box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+}
+
+.card-img {
+    background-image: url(https://images.unsplash.com/photo-1585424536945-26663ea69d52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);
+    width: 100%;
+    height: 200px;
+    border-radius: 0.3em;
+    background-position: center;
+    background-size: cover;
+}
